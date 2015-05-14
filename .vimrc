@@ -7,3 +7,5 @@ set ignorecase
 set incsearch
 set cursorline
 :hi CursorLine   cterm=NONE ctermbg=darkgrey ctermfg=white guibg=darkred guifg=white
+
+filetype plugin indent on

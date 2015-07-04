@@ -22,3 +22,6 @@ export PS1="\[$(tput bold)\]\[\033[38;5;11m\]\w:\[$(tput sgr0)\]\[\033[38;5;9m\]
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -i'
+
+complete -C '/usr/bin/aws_completer' aws
+export PATH=/usr/local/aws/bin:$PATH
